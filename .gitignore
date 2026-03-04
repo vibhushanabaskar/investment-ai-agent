@@ -1,0 +1,5 @@
+.env
+.venv
+investment.db
+__pycache__/
+*.pyc
