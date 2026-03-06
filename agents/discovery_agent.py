@@ -3,8 +3,9 @@ from agents.technical_agent import get_technical_indicators
 
 # Small stock universe for demo
 WATCHLIST = [
-    "AAPL","MSFT","TSLA","NVDA","AMD",
-    "GOOGL","AMZN","META","NFLX","INTC"
+    "NVDA","AMZN","META","GOOGL","AVGO","AMD","NFLX",
+"INTC","CRM","ADBE","ORCL","CSCO","QCOM","TXN","IBM","AMAT","MU",
+"COST","WMT","TGT","HD","LOW","NKE","SBUX","MCD","DIS","PYPL"
 ]
 
 def discover_opportunities():

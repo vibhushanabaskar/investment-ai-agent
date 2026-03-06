@@ -1,7 +1,13 @@
 def assess_risk(indicators):
 
-    if indicators["price"] < indicators["SMA_50"]:
+    price = indicators["price"]
+    sma20 = indicators["SMA_20"]
+    sma50 = indicators["SMA_50"]
+
+    if price < sma50:
         return "HIGH"
-    if indicators["price"] < indicators["SMA_20"]:
+
+    if price < sma20:
         return "MEDIUM"
+
     return "LOW"
